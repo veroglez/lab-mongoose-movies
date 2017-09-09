@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use((req,res,next) =>{
-  res.locals.title = 'HOLA QUE TAL';
+  res.locals.title = 'Mongoose movies';
   next();
 });
 

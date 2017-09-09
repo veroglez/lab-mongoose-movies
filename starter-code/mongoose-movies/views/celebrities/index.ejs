@@ -2,6 +2,7 @@
 <ul>
   <% celebritiesList.forEach( (e) => { %>
     <li><a href="/celebrities/<%=e.id%>"><%=e.name%></a>
+        | <a href="/celebrities/<%= e._id %>/edit">Edit</a>
         | <a href="/celebrities/<%= e._id %>/delete">Delete</a>
     </li>
   <% })%>
