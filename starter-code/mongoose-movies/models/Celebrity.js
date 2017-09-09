@@ -7,7 +7,4 @@ const CelebritySchema = new Schema({
   catchPhrase: String
 });
 
-//const Celebrity = mongoose.model('Celebrity', CelebritySchema);
-//module.exports = Celebrity;
-
 module.exports = mongoose.model('Celebrity', CelebritySchema);
